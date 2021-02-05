@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+#navbar {
+  text-align:center;
+  overflow: hidden;
+  top:auto;
+  background-color: grey;
+  width:100%;
+  height:80px;
+}
+
+#navbar a {
+  float: left;
+  display:compact;
+  color: #f2f2f2;
+  text-align: center;
+  /*padding:28px;*/
+  padding: 28px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.btn-nav{
+	text-align:left;background-color:gray;
+	border:none;
+	font-size:20px;font-family:courier;color:black;letter-spacing:4px;
+	border-radius:4px;
+	padding:15px;margin:10px;transition:1s;
+}
+
+#navbar a:hover {
+	cursor:pointer;
+	background-color: darkcyan;transition:1s;color:white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
