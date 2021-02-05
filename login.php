@@ -74,8 +74,9 @@ SIGN UP BELOW<br></h1><br><br><br>
 
 
 <?php
-	$con=mysqli_connect("localhost","root","");
-	mysqli_select_db($con,"lecturev1");
+	$con=mysqli_connect("localhost","root","","lecturev1");
+  mysqli_select_db($con,"lecturev1");
+ 
 
 session_start();		
 			
